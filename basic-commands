@@ -14,7 +14,7 @@ make changes in the config/server.properties to point to the right instance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 vi config/server.properties
 # update host ip in listeners=PLAINTEXT://<your-ip>:9092
-# update host ip in advertised.listeners=PLAINTEXT://172.31.44.164:9092
+# update host ip in advertised.listeners=PLAINTEXT://<>:9092
 
 start the kafka instance
 ~~~~~~~~~~~~~~~~~~~~~~~~
